@@ -96,7 +96,7 @@ class SmartClientProtocol(WebSocketClientProtocol):
 			if ticket['status'] == 'solved':
 				#send message to ws
 				#print "Hey man problem resolved"
-				self.sayAnswer(room, "Ваша проблема успешно решена")
+				self.sayAnswer(room, "Андрей, мы нашли проблему и все исправили, пишите если опять будет регулярно повторяться проблема")
 
 				ticket_id = ticket['id']
 				data = {
